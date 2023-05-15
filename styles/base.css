@@ -1,0 +1,11 @@
+:root {
+  --color--background:#001e2f;
+  --color--primary:#143044;
+  --color--text:#ffffff;
+}
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
