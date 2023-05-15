@@ -1,0 +1,104 @@
+.headerNav {
+  width: 90%;
+  height:60px;
+  margin: 20px auto 0;
+}
+
+.headerNav .nav {
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.nav .navIcon {
+  width:20%;
+  height:100%;
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.navIcon .icon {
+  width:100%;
+  height: 100%;
+  text-decoration: none;
+  background-image: url("../../public/logo.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.navIcon .icon:hover {
+  background-image: url("../../public/logo-color.png");
+}
+
+.nav ul {
+  width:80%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:flex-end;
+  align-items:center;
+  gap: 20px;
+}
+
+.nav ul li {
+  display:flex;
+  width:15%;
+  height: 100%;
+  cursor: pointer;
+  align-items: center;
+  justify-content:center;
+}
+
+.nav ul li a {
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color:var(--color--text);
+  font-family: var(--font-poppins),sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.nav ul li a:hover {
+  text-shadow: 0 0 10px rgba(158,118,255,1),
+    0 0 20px rgba(158,118,255,1),
+    0 0 30px rgba(158,118,255,1),
+    0 0 40px rgba(158,118,255,1),
+    0 0 70px rgba(158,118,255,1),
+    0 0 80px rgba(158,118,255,1),
+    0 0 100px rgba(158,118,255,1);
+}
+
+.nav ul li:last-child {
+  background-color: var(--color--textoffset);
+  border-radius: 40px;
+}
+
+.nav ul li:last-child a:hover {
+  color:var(--color--textoffset);
+  text-shadow: none;
+}
+
+.nav ul li:last-child:hover {
+  background-color: var(--color--secondary);
+  box-shadow: 0 0 10px rgba(158,118,255,1),
+    0 0 20px rgba(158,118,255,1),
+    0 0 30px rgba(158,118,255,1);
+}

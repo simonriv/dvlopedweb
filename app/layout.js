@@ -1,5 +1,10 @@
 import "../styles/index.css"
 import { Poppins } from "next/font/google"
+import { Navigation } from "./components/Navigation"
+import { Footer } from "./components/Footer"
+import { config } from "@fortawesome/fontawesome-svg-core"
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 
 export const metadata = {
   title: 'Dvloped',
@@ -22,7 +27,11 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png"/>
         <link rel="manifest" href="/favicon/site.webmanifest"/>
       </head>
-      <body className={poppins.variable}>{children}</body>
+      <body className={poppins.variable}>
+        <Navigation/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   )
 }
