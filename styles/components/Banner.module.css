@@ -1,0 +1,39 @@
+.banner {
+  width:100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.banner h1 {
+  color: var(--color--text);
+  font-family: var(--font--poppins),sans-serif;
+  font-weight: 700;
+  font-size: 4.4rem;
+  margin: 20px 0;
+  text-shadow: 0 0 10px var(--color--primary),
+    0 0 20px var(--color--primary),
+    0 0 30px var(--color--primary);
+}
+
+.banner p {
+  color: var(--color--text);
+  font-family: var(--font--poppins),sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  width: 80%
+}
+
+.banner .title {
+  color: var(--color--text);
+  font-family: var(--font--poppins),sans-serif;
+  font-weight: 700;
+  font-size: 4.4rem;
+  margin: 20px 0;
+  text-shadow: 0 0 10px var(--color--primary),
+    0 0 20px var(--color--primary),
+    0 0 30px var(--color--primary);
+    text-align: center;
+}

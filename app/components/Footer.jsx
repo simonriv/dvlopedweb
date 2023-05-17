@@ -11,9 +11,9 @@ export function Footer(){
       </div>
       <div className={styles.footerMiddle}>
         <ul>
-          <li><Link href="">Politicas de privacidad</Link></li>
-          <li><Link href="">Terminos y condiciones</Link></li>
-          <li><Link href="">Legal</Link></li>
+          <li><Link href="/privacy-policy">Politicas de privacidad</Link></li>
+          <li><Link href="/terms-and-conditions">Terminos y condiciones</Link></li>
+          <li><Link href="/legal">Legal</Link></li>
         </ul>
         <p>© 2023 Dvloped. Todos los derechos reservados.</p>
       </div>

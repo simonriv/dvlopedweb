@@ -19,9 +19,9 @@
   font-weight: 700;
   font-style: normal;
   font-size: 4.8rem;
-  text-shadow: 0 0 10px rgba(158,118,255,1),
-    0 0 20px rgba(158,118,255,1),
-    0 0 30px rgba(158,118,255,1);
+  text-shadow: 0 0 10px var(--color--primary),
+    0 0 20px var(--color--primary),
+    0 0 30px var(--color--primary);
   margin: 1rem 0;
 }
 
