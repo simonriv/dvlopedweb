@@ -1,0 +1,129 @@
+.ourServices {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0;
+  background-color: var(--color--textoffset);
+  box-shadow: 14px 14px 60px -10px rgba(0,0,0,.3);
+  padding: 40px 20px;
+  border-radius: 20px;
+}
+
+.ourServices h2{
+  font-weight: 200;
+  font-size: 1.3rem;
+  font-family: var(--font-poppins),sans-serif;
+}
+
+.ourServices h1{
+  font-weight: 700;
+  font-family: var(--font-poppins),sans-serif;
+  font-size: 3rem;
+  margin: 20px 0;
+  text-shadow: 0 0 10px var(--color--secondary),
+    0 0 20px var(--color--secondary),
+    0 0 30px var(--color--secondary);
+  margin-bottom: 40px;
+}
+
+.ourServices p{
+  font-weight: 300;
+  font-family: var(--font-poppins),sans-serif;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.ourServices a{
+  color:var(--color--text);
+  font-family: var(--font-poppins),sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px rgba(158,118,255,1),
+    0 0 20px rgba(158,118,255,1),
+    0 0 30px rgba(158,118,255,1);
+  margin: 10px 0;
+  text-shadow: 0 0 10px var(--color--primary),
+    0 0 20px var(--color--primary),
+    0 0 30px var(--color--primary);
+}
+
+.ourServices h3 {
+  text-transform: uppercase;
+  font-family: var(--font-poppins),sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 40px 0 20px;
+}
+
+.gridServices {
+  width:100%;
+  min-height: 60vh;
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(345px,1fr));
+  grid-gap:1rem;
+  padding-top: 20px;
+}
+
+.gridServices .itemGridServices {
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemGridServices span {
+  width: 20%;
+  height: 100%;
+  line-height: 100px;
+  color:var(--color--secondary);
+  font-size: 4rem;
+}
+
+.itemGridServices h4 {
+  width: 80%;
+  height: 100%;
+  line-height:100px;
+  font-family: var(--font-poppins),sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.gridServices .itemGridPage {
+  height: 300px;
+  overflow:hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.itemGridPage span {
+  width: 10%;
+  height:100%;
+  letter-spacing: .2rem;
+  font-weight: 200;
+  line-height: 2.4rem;
+}
+
+.itemGridPage .contentItemPage {
+  width:90%;
+  height:100%;
+  overflow:hidden;
+}
+
+.contentItemPage h4 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.contentItemPage p {
+  font-weight: 300;
+  font-size: 1rem;
+}

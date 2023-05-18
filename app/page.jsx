@@ -1,8 +1,9 @@
 import styles from "../styles/pages/Home.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronCircleRight,faUsersLine,faRocket,faDesktop,faDatabase,faCartShopping,faMessage } from "@fortawesome/free-solid-svg-icons"
+import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons"
 import Link from "next/link"
 import { ProjectList } from "./components/ProjectList"
+import { Services } from "./components/Services"
 
 export default function HomePage(){
   return (
@@ -58,21 +59,9 @@ export default function HomePage(){
           </div>
         </div>
       </section>
-      <section className={styles.ourServices}>
-        <h2>NUESTROS SERVICIOS</h2>
-        <h1>Lógica digital.</h1>
-        <p>Nos especializamos en el desarrollo de soluciones de software según tu necesidad. Con muchos años de experiencia en el desarrollo y diseño de sitios web, plataformas en línea y aplicaciones web, apoyamos a su empresa en la implementación de nuevos productos de software y la mejora de sus procesos comerciales.</p>
-        <h3>Algunos de nuestros productos</h3>
-        <div className={styles.gridServices}>
-          <div className={styles.itemGridServices}><span><FontAwesomeIcon icon={faUsersLine}/></span><h4>Comunidades Online</h4></div>
-          <div className={styles.itemGridServices}><span><FontAwesomeIcon icon={faRocket}/></span><h4>Páginas Web {'&'} Apps</h4></div>
-          <div className={styles.itemGridServices}><span><FontAwesomeIcon icon={faDesktop}/></span><h4>Interfaces y APIs</h4></div>
-          <div className={styles.itemGridServices}><span><FontAwesomeIcon icon={faDatabase}/></span><h4>Bases de datos</h4></div>
-          <div className={styles.itemGridServices}><span><FontAwesomeIcon icon={faCartShopping}/></span><h4>E-Commerce</h4></div>
-          <div className={styles.itemGridServices}><span><FontAwesomeIcon icon={faMessage}/></span><h4>Asesorias</h4></div>
-        </div>
-        <Link href="/services">Ver todos los servicios</Link>
-      </section>
+
+      <Services more={true} sec="home"/>
+      
       <section className={styles.ourTeam}>
         <h2>NUESTRO EQUIPO</h2>
         <h1>Un equipo ganador de desarrolladores y diseñadores expertos.</h1>
