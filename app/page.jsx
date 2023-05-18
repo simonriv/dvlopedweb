@@ -1,7 +1,8 @@
 import styles from "../styles/pages/Home.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronCircleRight,faUsersLine,faRocket,faDesktop,faDatabase,faCartShopping,faMessage,faChevronRight } from "@fortawesome/free-solid-svg-icons"
+import { faChevronCircleRight,faUsersLine,faRocket,faDesktop,faDatabase,faCartShopping,faMessage } from "@fortawesome/free-solid-svg-icons"
 import Link from "next/link"
+import { ProjectList } from "./components/ProjectList"
 
 export default function HomePage(){
   return (
@@ -28,30 +29,9 @@ export default function HomePage(){
           </li>
         </ul>
       </section>
-      <section className={styles.featuredProjects}>
-        <h2>Proyectos destacados</h2>
-        <section className={styles.listProjects}>
-          <div className={styles.itemListProjects}>
-            <div className={styles.imgItemProjects}></div>
-            <div className={styles.contentItemProjects}>
-              <h1>Title</h1>
-              <sub>Subtitle</sub>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-              <Link href="/projects">Ver más <span><FontAwesomeIcon icon={faChevronRight}/></span></Link>
-            </div>
-          </div>
-          <div className={styles.itemListProjects}>
-            <div className={styles.imgItemProjects}></div>
-            <div className={styles.contentItemProjects}>
-              <h1>Title</h1>
-              <sub>Subtitle</sub>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-              <Link href="/projects">Ver más <span><FontAwesomeIcon icon={faChevronRight}/></span></Link>
-            </div>
-          </div>
-        </section>
-        <Link href="/projects">Ver más proyectos</Link>
-      </section>
+
+      <ProjectList cant={2} sec={true} more={true}/>
+      
       <section className={styles.testimonials}>
         <h1>Lo que dicen nuestros clientes</h1>
         <sub>TESTIMONIOS</sub>
