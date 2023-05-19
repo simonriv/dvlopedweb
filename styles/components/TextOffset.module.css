@@ -1,0 +1,12 @@
+.cont {
+  width:80%;
+  height: auto;
+  font-family: var(--font-poppins),sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.upp {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
