@@ -73,3 +73,26 @@
 .footerSocial a:hover {
   color:var(--color--tertiary);
 }
+
+@media (max-width: 1100px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footerMiddle ul {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .footerMiddle p {
+    text-align:center;
+    margin-top: 20px;
+  }
+
+  .footer .footerIcon,
+  .footer .footerMiddle,
+  .footer .footerSocial {
+    width: 100%;
+    height: 150px;
+  }
+}

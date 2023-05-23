@@ -104,3 +104,28 @@
 .contentItemProjects a:hover > span {
   margin-left: 20px;
 }
+
+@media (max-width: 1100px){
+  .featuredProjects {
+    margin-bottom: 10rem;
+  }
+
+  .featuredProjects > a {
+    width: 100%;
+  }
+
+  .listProjects .itemListProjects {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .itemListProjects .imgItemProjects {
+    width: 100%;
+    height: 400px;
+  }
+
+  .itemListProjects .contentItemProjects {
+    width:100%;
+    height: auto;
+  }
+}

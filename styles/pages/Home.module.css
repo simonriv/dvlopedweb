@@ -32,6 +32,22 @@
   font-size: 1.7rem;
 }
 
+@media (max-width: 600px){
+  .bannerHome h3 {
+    text-align: center;
+  }
+
+  .bannerHome h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .bannerHome p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
 /*
  * secKnow
  * */
@@ -162,6 +178,7 @@
   justify-content: center;
   align-items:center;
   flex-direction:column;
+  margin:2rem 0;
 }
 
 .testimonials h1 {
@@ -243,4 +260,14 @@
   font-weight: 200;
   font-size: 1.1rem;
   color:var(--color--tertiary);
+}
+
+@media (max-width: 600px) {
+  .testimonials .gridTestimonials {
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  }
+
+  .gridTestimonials .itemGridTestimonials {
+    height: auto
+  }
 }

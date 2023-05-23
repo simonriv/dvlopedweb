@@ -49,3 +49,14 @@
 .form button:hover {
   opacity: .9;
 }
+
+@media (max-width: 1100px) {
+  .form {
+    width: 95%;
+  }
+
+  .form input,
+  .form textarea {
+    width:95%;
+  }
+}
