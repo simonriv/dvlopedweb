@@ -4,7 +4,7 @@ import styles from "../../styles/pages/Contact.module.css"
 export default function ContactPage(){
   return(
     <main>
-      <Banner title="Vamos." desc="Siempre estamos buscando nuevas ideas y proyectos emocionantes." />
+      <Banner title="Contáctanos" desc="Déjanos tu información y pronto estaremos en contacto contigo." />
       <form className={styles.form}>
         <input type="text" placeholder="Nombres*" required/>
         <input type="text" placeholder="Apellidos*" required/>

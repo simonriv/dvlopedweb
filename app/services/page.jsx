@@ -6,7 +6,7 @@ import styles from "../../styles/pages/Services.module.css"
 export default function ServicesPage(){
   return(
     <main>
-      <Banner title="Nuestros Servicios" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+      <Banner title="Nuestros Servicios" desc="Aquí podrás ver algunas de las soluciones más comunes y en que lenguajes hemos trabajado en diferentes proyectos." />
       <Services more={false} sec=""/>
       <section className={styles.listSkills}>
         <div>
@@ -28,7 +28,7 @@ export default function ServicesPage(){
               <h2>Mysql</h2>
             </li>
             <li>
-              <h2>Java</h2>
+              <h2>PostgreSQL</h2>
             </li>
             <li>
               <h2>HTML 5,CSS3</h2>
@@ -48,34 +48,34 @@ export default function ServicesPage(){
           <h1>Nuestras habilidades</h1>
           <ul>
             <li>
-              <h2>Project Management {'&'} Consulting</h2>
+              <h2>Asesoría {'&'} Gestión de Proyectos</h2>
             </li>
             <li>
-              <h2>Software Development</h2>
+              <h2>Desarrollo de Software</h2>
             </li>
             <li>
-              <h2>Frontend Development</h2>
+              <h2>Desarrollo Frontend</h2>
             </li>
             <li>
-              <h2>Backend Development</h2>
+              <h2>Desarrollo Backend</h2>
             </li>
             <li>
-              <h2>Database Development</h2>
+              <h2>Desarrollo de Bases de Datos</h2>
             </li>
             <li>
-              <h2>API Development</h2>
+              <h2>Desarrollo de APIs</h2>
             </li>
             <li>
-              <h2>Web Applications</h2>
+              <h2>Aplicaciones Web</h2>
             </li>
             <li>
-              <h2>CMS Websites</h2>
+              <h2>Sitios Web con CMS</h2>
             </li>
             <li>
-              <h2>Server Infrastructure Management</h2>
+              <h2>Gestión de infraestructura de servidores</h2>
             </li>
             <li>
-              <h2>Cloud Service Integration</h2>
+              <h2>Integración de los servicios en la nube</h2>
             </li>
           </ul>
         </div>

@@ -9,24 +9,24 @@ export default function HomePage(){
   return (
     <main>
       <section className={styles.bannerHome}>
-        <h3>DESARROLLO DE SOFTWARE - COLOMBIA</h3>
+        <h3>CASA DE DESARROLLO</h3>
         <h1>Materializando ideas.</h1>
-        <p>Dvloped es una agencia especializada en la realización de proyectos de software para empresas líderes.</p>
+        <p>En Dvloped le ofrecemos soluciones tecnológicas y, a través del software, podemos hacer realidad sus ideas.</p>
       </section>
       <section className={styles.secKnow}>
         <h2>Para conocernos</h2>
         <ul>
           <li>
             <Link href="#pBest"><span><FontAwesomeIcon icon={faChevronCircleRight}/></span>Lo que hacemos mejor</Link>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>En Dvloped, nos especializamos en la innovación y la creación de proyectos de software, tales como Apps Móviles, Páginas de Servicio, Apps de escritorio, soluciones en bases de datos o asistencia en la migración de procesos empresariales manuales al mundo digital.</p>
           </li>
           <li>
             <Link href=""><span><FontAwesomeIcon icon={faChevronCircleRight}/></span>Quiénes son nuestro clientes</Link>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Cualquier persona o empresa puede usar nuestros servicios en la migración de procesos o en la innovación de software, dado que nuestro servicio se ajusta las necesidades de nuestros clientes.</p>
           </li>
           <li>
             <Link href=""><span><FontAwesomeIcon icon={faChevronCircleRight}/></span>Cómo trabajamos</Link>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>En Dvloped nos ajustamos a tus necesidades, por ende las tarifas y modelos de trabajo se definen en reuniones acordadas contigo.</p>
           </li>
         </ul>
       </section>

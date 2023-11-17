@@ -9,7 +9,7 @@ export default function AboutPage(){
 
   return(
     <main>
-      <Banner title="Sobre Nosotros" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+      <Banner title="Sobre Nosotros" desc="Aquí te contaremos sobre nuestras motivaciones y nuestras metas a futuro." />
       <div className={styles.imgAbout}></div>
       <TextOffset content={content} br={true} upper={false} line={true}/>
       <TextOffset content={content} br={true} upper={true} line={true}/>
